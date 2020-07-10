@@ -11,7 +11,7 @@
 }
 
 .footer{
-    background-color: rgb(165, 212, 212);
+    background-color: #D1C4E9;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -19,12 +19,12 @@
 .jumbotron{
     padding: 70px 30px;
     margin: auto;
-    background: #9e8dbd;
-    color: rgb(80, 61, 25)
+    background: #9575CD;
+    color: floralwhite;
 }
 
 address{
     font-size: 80%;
-    /* margin: 0px; */
+    margin: 0px;
     color: #0f0f0f;
 }
