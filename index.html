@@ -353,33 +353,7 @@
     <script src='node_modules/jquery/dist/jquery.slim.min.js'></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#mycarousel").carousel({ interval: 2000 });
-
-            $("#carouselButton").click(function(){
-                if ($(this).children('span').hasClass('fa-pause')){
-                    $("#mycarousel").carousel('pause');
-                    $(this).children('span').removeClass('fa-pause');
-                    $(this).children('span').addClass('fa-play');
-                }
-                else {
-                    $("#mycarousel").carousel('cycle');
-                    $(this).children('span').removeClass('fa-play');
-                    $(this).children('span').addClass('fa-pause');
-                }
-            });
-
-            $("#loginLink").click(function(){
-                $("#loginModal").modal('toggle')
-            });
-
-            $("#reserveButton").click(function(){
-                $("#reserveModal").modal('toggle')
-            })
-
-        });
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
